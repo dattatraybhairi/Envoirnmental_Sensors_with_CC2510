@@ -1,0 +1,79 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=166284340
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Breakpoints2]
+Bp0=_ 1 "STD_CODE2" "{$PROJ_DIR$\..\code\communicator ver 1.1\per_test_main.c}.844.5" 0 0 1 "" 0 ""
+Bp1=_ 1 "STD_CODE2" "{$PROJ_DIR$\..\code\communicator ver 1.1\per_test_main.c}.223.10" 0 0 1 "" 0 ""
+Count=2
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[array_types]
+Fmt0=BYTE [80]	3	0
+Fmt1=INT8 [180]	3	0
+Fmt2=INT8 [207]	3	0
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\..\code\communicator ver 1.1\per_test_main.c}.575.3" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\..\code\communicator ver 1.1\per_test_main.c}.780.5" 0 0 0 0 "" 0 ""
+Count=2
+[ChipconEmu]
+Stop timers on halt=0
+Leave target running=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Aliases]
+A0=_ "C:\Users\user\Downloads\CC2510_tag_dumm tx nw arch\code\communicator ver 1.1\UART.c" "E:\My data\college\B.E\ProJEct AnDroiD\college project\Vacus tech\codes\Demos\Macanzi\April 19 POC\code\tag code\CC2510_tag_dumm tx nw arch\code\communicator ver 1.1\UART.c"
+A1=_ "E:\Akshay IAR work\CCA_CC2510\Rahul updated codes\CC2510_tag_mems_TDMA_panic_v2\code\michelin_tag\cc2510_spi.c" ""
+A2=_ "E:\Akshay IAR work\IAR_allcodes\Datacenter_sensor_codes\Airflow_measurement\IAR_code\CC2510_LIS2DE12_TEMPEN_SLF_TST_TH_AIRFLW_V8\code\michelin_tag\cc2510_spi.c" ""
+A3=_ "E:\Rahul Embedded Engineer\codes\CC2510\New architecture for antenna switching\CC2510_zone_monitor_ver1.2_for_skywork_switchboard\code\Library\HAL\source\hal_power_clk_mgmt.c" ""
+A4=_ "E:\Rahul Embedded Engineer\codes\CC2510\original\example_sw_swrc085a\code\Library\HAL\source\hal_power_clk_mgmt.c" ""
+Count=5
+SuppressDialog=1
